@@ -49,11 +49,11 @@
     </layout>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <layout class="QHBoxLayout" name="horizontalLayout_7">
      <item>
       <widget class="QLabel" name="label_3">
        <property name="text">
-        <string>First Time</string>
+        <string>Register Time</string>
        </property>
        <property name="buddy">
         <cstring>fist_time</cstring>
@@ -125,11 +125,22 @@
     </layout>
    </item>
    <item>
-    <widget class="QPushButton" name="generate">
-     <property name="text">
-      <string>Generate</string>
-     </property>
-    </widget>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QCheckBox" name="sdkCheckBox">
+       <property name="text">
+        <string>SDK</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="make">
+       <property name="text">
+        <string>Make</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </item>
   </layout>
  </widget>
