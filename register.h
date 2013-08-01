@@ -3,7 +3,7 @@
 
 #include <openssl/rsa.h>
 #include <openssl/err.h>
-#include <QtGui/QDialog>
+#include <QDialog>
 #include "ui_register.h"
 #include "CyoEncode.h"
 
@@ -12,7 +12,7 @@ class Register : public QDialog
 	Q_OBJECT
 
 public:
-	Register(QWidget *parent = 0, Qt::WFlags flags = 0);
+	Register(QWidget *parent = 0, Qt::WindowFlags flags = 0);
 	~Register();
 private slots:
 	void on_make();

@@ -7,7 +7,7 @@ static const char *the_d = "6631469748128439641093466942634298934310183617519785
 
 using namespace std;
 
-Register::Register(QWidget *parent, Qt::WFlags flags)
+Register::Register(QWidget *parent, Qt::WindowFlags flags)
 	: QDialog(parent, flags)
     , _rsa(NULL)
 {
